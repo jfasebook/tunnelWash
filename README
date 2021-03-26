@@ -1,0 +1,16 @@
+El proyecto busca ser una aproximación de modelar un tunel de lavado. Se hará con JS con un enfoque de OOP.
+
+El tunel de lavado permitirá lavar vehículos:
+
+- coche
+- moto
+- camión
+- bicicleta
+
+Cada vehículo se lavará de una forma distinta.
+
+Para emular esto cada lavado dirá, Estoy lavando un <vehículo> donde <vehículo> será el que corresponda.
+
+Para ello el tunel de lavado tendrá una acción principal llamada `run` y mantendrá internamente una lista de vehículos.
+
+El programa principal construirá una Lista de vehículos y se los pasará al tunel de lavado.
